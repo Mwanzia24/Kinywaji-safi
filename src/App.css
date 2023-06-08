@@ -1,16 +1,30 @@
-.App {
+/* App.css */
+.Container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Title {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.DrinkList {
+  list-style: none;
+  padding: 0;
+}
+
+.DrinkItem {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.App {
+  text-align: center;
 }
 
 .App-header {
