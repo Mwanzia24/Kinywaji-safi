@@ -1,0 +1,33 @@
+.drinkContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    margin-top: 50px;
+  }
+  
+  .drinkContainer div {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .drinkContainer div h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .drinkContainer div p {
+    margin-bottom: 5px;
+  }
+  
+  .drinkContainer div button {
+    padding: 5px 10px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .drinkContainer div button:hover {
+    background-color: #f50057;
+  }
+  

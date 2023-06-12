@@ -1,52 +1,30 @@
 /* App.css */
-.Container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
-}
-
-.Title {
-  font-size: 32px;
-  color: #333;
-  margin-bottom: 20px;
-}
-
-.DrinkList {
-  list-style: none;
-  padding: 0;
-}
-
-.DrinkItem {
-  font-size: 18px;
-  color: #666;
-  margin-bottom: 10px;
-}
-
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.navbar {
+    background-color: #ff6b6b;
+    padding: 10px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
-}
+  
+  .navbar li {
+    margin-right: 10px;
+  }
+  
+  .navbar a {
+    color: #703737;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: #ff9f43;
+    border-radius: 3px;
+  }
+  
